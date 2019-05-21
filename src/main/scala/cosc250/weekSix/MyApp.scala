@@ -5,8 +5,7 @@ import java.util.concurrent.TimeoutException
 import akka.NotUsed
 import akka.actor._
 import akka.stream.scaladsl.Source
-import play.api.libs.ws.ahc.AhcWSClient
-import play.api.libs.ws.ning.NingWSClient
+import play.api.libs.ws.ahc.StandaloneAhcWSClient
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
